@@ -107,7 +107,7 @@ form button:hover{
     }
 }
 
-@media (max-width: 376px){
+@media (max-width: 376px) and (max-width: 667px){
     body {
         background-image: url("artes/modelo-2/375x667.png");
         background-size: cover;
