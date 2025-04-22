@@ -10,15 +10,61 @@
     src: url("Parisienne-Regular.ttf") format("truetype");
 }
 
+body{
+    background-image: url("artes/modelo-1/1160x1640.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
 .div-1{
     width: 100%;
     height: 70vh;
     background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .div-2{
     width: 100%;
     height: 20vh;
     display: flex;
+}
+
+h1{
+    font-family: parisienne;
+    font-size: 65px;
+    color: #1d4576;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+h1 > span{
+    font-size: 80px;
+}
+
+h2{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1d4576;
+    font-size: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h2 span{
+    
 }
 nav{
     width: 100%;
@@ -43,19 +89,6 @@ nav > a > span{
 
 
 
-/*body{
-    background-image: url("artes/modelo-1/modelo1-prototipo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    width: 100vw;
-}*/
-
-
-
-
 @media  (max-width: 450px){
     body {
         background-image: url("artes/modelo-1/450x920.png");
@@ -65,6 +98,48 @@ nav > a > span{
         background-attachment: fixed;
         height: 100vh;
     }
+
+    
+.div-1{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div-2{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+
+h1{
+    font-family: parisienne;
+    font-size: 65px;
+    color: #1d4576;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+h1 > span{
+    font-size: 80px;
+}
+
+h2{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1d4576;
+    font-size: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+}
 }
 
 @media  (max-width: 415px){
@@ -76,6 +151,48 @@ nav > a > span{
         background-attachment: fixed;
         height: 100vh;
     }
+
+    
+.div-1{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div-2{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+
+h1{
+    font-family: parisienne;
+    font-size: 65px;
+    color: #1d4576;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+h1 > span{
+    font-size: 80px;
+}
+
+h2{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1d4576;
+    font-size: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+}
 }
 
 @media (max-width: 376px){
@@ -87,4 +204,46 @@ nav > a > span{
         background-attachment: fixed;
         height: 100vh;
     }
+
+    
+.div-1{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div-2{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+
+h1{
+    font-family: parisienne;
+    font-size: 65px;
+    color: #1d4576;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+h1 > span{
+    font-size: 80px;
+}
+
+h2{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1d4576;
+    font-size: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+}
 }
