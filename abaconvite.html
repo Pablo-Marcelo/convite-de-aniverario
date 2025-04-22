@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação de presença</title>
+    <link rel="stylesheet" href="style-convite.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <section>
+        <h2>Convidado:</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+            <label for="numero">Numero</label>
+            <input type="tel" name="numero" id="numero" placeholder="Número de contato" required>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="apiKey" value="sf_j1abj8m0a4e92k09m5l9gimb">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/contato-enviado.html">
+        </form>
+    </section>
+</body>
+</html>

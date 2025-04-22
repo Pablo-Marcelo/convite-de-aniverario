@@ -1,0 +1,50 @@
+Principal:
+1. Criar uma estrutura html css responsivas para aparelhos moveis.(em processo)
+2. Criar botoes de direcionamento.(Feito)
+3. Criar inputs de preenchimento de formulario .(feito)
+4. Integrar os valores do input para cair no email.(feito)
+
+obs:
+1) Vai se utilizado o principio de mobile frist.(em processo)
+2) Serão 3 links (formulario de confirmação / localização do local / sujestões de presentes)
+3) Sera um formulário onde você acrecenta seus dados e confirma sua presença.(Feito)
+4) Configurar o formulario com o Email via api.(Feito)
+
+Estrutura:
+1. Criar uma pagina para cada link com botao. (Feito)
+obs: os links tem que ser com target para abrir em outra aba. (Feito)
+
+
+
+
+Criação da Pagina de convite e presente:
+1. Usar a base da arte principal nas duas paginas, apenas removendo as aguas vivas.
+2. criar pastas separadas para organizar as artes para cada pagina.
+3. criar a arte dos links dentro do circulo
+
+yasmimfaz15anos@gmail.com
+123456789Y@ senha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Informações:
+Data :20/07
+Horário: 18:00 às 22:00
+Endereço: R. Paraná, 333 - Cidade Praiana, Rio das Ostras - RJ, 28890-242
