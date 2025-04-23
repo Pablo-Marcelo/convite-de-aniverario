@@ -52,6 +52,7 @@ h1{
     width: 100%;
     flex-direction: column;
     padding-top: 150px;
+    background-image: url("artes/circle/");
 }
 
 h1 > span{
@@ -60,11 +61,12 @@ h1 > span{
 
 h2{
     display: flex;
-    font-family: 'Courier New', Courier, monospace;
     color: #1d4576;
-    font-size: 10px;
+    font-family: "Parisienne", cursive;
+    font-size: 20px;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
     
 }
 
@@ -135,11 +137,12 @@ h1 > span{
 
 h2{
     display: flex;
-    font-family: 'Courier New', Courier, monospace;
     color: #1d4576;
-    font-size: 10px;
+    font-family: "Parisienne", cursive;
+    font-size: 20px;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
     
 }
 }
@@ -188,11 +191,12 @@ h1 > span{
 
 h2{
     display: flex;
-    font-family: 'Courier New', Courier, monospace;
     color: #1d4576;
-    font-size: 10px;
+    font-family: "Parisienne", cursive;
+    font-size: 20px;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
     
 }
 }
@@ -241,11 +245,12 @@ h1 > span{
 
 h2{
     display: flex;
-    font-family: 'Courier New', Courier, monospace;
     color: #1d4576;
-    font-size: 10px;
+    font-family: "Parisienne", cursive;
+    font-size: 20px;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
     
 }
 }
