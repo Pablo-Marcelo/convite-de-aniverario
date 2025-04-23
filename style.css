@@ -80,7 +80,7 @@ nav > a {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    font-family: parisienne;
+    font-family: "Parisienne", cursive;
     font-weight: bold;
 }
 nav > a > span{
