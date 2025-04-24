@@ -85,18 +85,6 @@ form button:hover{
     border: 1px solid #101026;
 }
 
-@media (max-width: 450px) and (max-width: 920px){
-    body {
-        background-image: url("artes/modelo-2/450x920.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        height: 100vh;
-    }
-
-
-}
 
 @media (max-width: 415px) and (max-width: 920px){
     body {
