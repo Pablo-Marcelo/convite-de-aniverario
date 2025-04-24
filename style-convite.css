@@ -85,10 +85,31 @@ form button:hover{
     border: 1px solid #101026;
 }
 
+@media (max-width: 320px) and (max-width: 568px){
+    body {
+        background-image: url("artes/modelo-2/375x667.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
 
-@media (max-width: 415px) and (max-width: 920px){
+@media (max-width: 360px) and (max-width: 780px){
     body {
         background-image: url("artes/modelo-2/450x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 375px) and (max-width: 812px){
+    body {
+        background-image: url("artes/modelo-2/375x667.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -107,6 +128,96 @@ form button:hover{
         height: 100vh;
     }
 }
+
+@media (max-width: 390px) and (max-width: 844px){
+    body {
+        background-image: url("artes/modelo-2/450x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 393px) and (max-width: 852px){
+    body {
+        background-image: url("artes/modelo-2/450x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 415px) and (max-width: 896px){
+    body {
+        background-image: url("artes/modelo-2/450x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 415px) and (max-width: 920px){
+    body {
+        background-image: url("artes/modelo-2/450x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 428px) and (max-width: 926px){
+    body {
+        background-image: url("artes/modelo-2/450x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 430px) and (max-width: 932px){
+    body {
+        background-image: url("artes/modelo-2/450x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 440px) and (max-width: 956px){
+    body {
+        background-image: url("artes/modelo-2/450x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 450px) and (max-width: 920px){
+    body {
+        background-image: url("artes/modelo-2/450x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
+
+
 
 /* Pagina do Obrigado */
 
