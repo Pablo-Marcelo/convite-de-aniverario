@@ -42,7 +42,7 @@ body{
     flex-direction: column;
     
     font-family: "Parisienne", cursive;
-    font-size: 22px;
+    font-size: 18px;
     
 }
 .div-presente-2{
@@ -50,7 +50,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: "Parisienne", cursive;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .div-presente-1 > img{
