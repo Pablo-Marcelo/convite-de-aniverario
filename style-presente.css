@@ -23,16 +23,20 @@ body{
 
 .container-1{
     display: flex;
+    
 }
 
 .container-2{
-    margin-top: 30px;
+    margin-top: 50px;
+    height: 200px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-2 > p{
    display: flex;
-   font-size: 20px;
+   font-size: 18px;
    font-family:  "Parisienne", cursive;
    align-items: center;
    flex-direction: column;
@@ -48,19 +52,18 @@ body{
 .bloco-1{
     display: flex;
     flex-direction: column;
-  
     align-items: center;
+    justify-content: center;
     }
     
     .bloco-2{
     display: flex;
     flex-direction: column;
-    
     align-items: center;
     }
 
 .div-presente-1{
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     font-family: "Parisienne", cursive;
@@ -68,7 +71,7 @@ body{
     
 }
 .div-presente-2{
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     font-family: "Parisienne", cursive;
@@ -108,6 +111,7 @@ body{
         background-attachment: fixed;
         height: 100vh;
     }
+    
 
     .container-2{
         margin-top: -10px;
@@ -181,6 +185,12 @@ body{
         height: 100vh;
     }
 
+    .container-2{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .container-2 > p{
         font-size: 18px;
     }
@@ -197,7 +207,7 @@ body{
         }
     
     .div-presente-1{
-        height: 500px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         font-family: "Parisienne", cursive;
@@ -205,7 +215,7 @@ body{
         
     }
     .div-presente-2{
-        height: 500px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         font-family: "Parisienne", cursive;
@@ -213,12 +223,12 @@ body{
     }
     
     .div-presente-1 > img{
-        width: 120px;
+        width: 100px;
         margin-bottom: 15px;
     }
     
     .div-presente-2 > img{
-        width: 120px;
+        width: 100px;
         margin-bottom: 15px;
     }
     .div-presente-1, .div-presente-2{
@@ -249,6 +259,13 @@ body{
         height: 100vh;
        
     }
+    .container-2{
+        margin-top: 0px;
+    }
+
+    .container-1{
+        margin-top: 20px;
+    }
    }
 
 @media (max-width: 376px) and (max-width: 667px){
@@ -260,6 +277,9 @@ body{
         background-attachment: fixed;
         height: 100vh;
        
+    }
+    .container-2{
+        margin-top: 0px;
     }
 }
 
