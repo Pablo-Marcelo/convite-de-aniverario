@@ -18,7 +18,30 @@ body{
     align-items: center;
     min-height: 100vh;
     background: #10102600;
+    flex-direction: column;
 }
+
+.container-1{
+    display: flex;
+}
+
+.container-2{
+    margin-top: 30px;
+    display: flex;
+}
+
+.container-2 > p{
+   display: flex;
+   font-size: 20px;
+   font-family:  "Parisienne", cursive;
+   align-items: center;
+   flex-direction: column;
+   color: #1d4576;
+   font-weight: bold;
+}
+.container-2 > p > span{
+    font-family: cursive;
+ }
 
 /* aba presente */
 
@@ -84,7 +107,14 @@ body{
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
-        margin-top: 50px;
+    }
+
+    .container-2{
+        margin-top: -10px;
+    }
+
+    .container-2 > p{
+        font-size: 18px;
     }
 
     .bloco-1{
@@ -151,6 +181,9 @@ body{
         height: 100vh;
     }
 
+    .container-2 > p{
+        font-size: 18px;
+    }
     .bloco-1{
         display: flex;
         flex-direction: column;
@@ -214,7 +247,7 @@ body{
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
-        margin-top: -30px;
+       
     }
    }
 
@@ -226,7 +259,7 @@ body{
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
-        margin-top: -30px;
+       
     }
 }
 
@@ -238,7 +271,7 @@ body{
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
-        margin-top: -30px;
+        
     }
  }
  
@@ -261,7 +294,7 @@ body{
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
-        margin-top: -30px;
+       
     }
   }
 
@@ -273,7 +306,7 @@ body{
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
-        margin-top: -30px;
+       
     }
 }
 
@@ -285,7 +318,6 @@ body{
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
-        margin-top: -30px;
     }
  }
 
@@ -297,8 +329,6 @@ body{
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
-        margin-top: -30px;
-    }
   }
 
   @media (max-width: 440px) and (max-width: 956px){ 
@@ -334,4 +364,4 @@ body{
     }
 }
 
-
+}
