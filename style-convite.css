@@ -20,6 +20,13 @@ body{
     background: #10102600;
 }
 
+aside{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    }
+
 section{
     display: flex;
     justify-content: center;
