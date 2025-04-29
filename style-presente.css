@@ -23,7 +23,7 @@ body{
 
 .container-1{
     display: flex;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
     
 }
 
@@ -140,71 +140,10 @@ body{
         height: 100vh;
     }
 
-    .container-2{
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .container-2 > p{
-        font-size: 18px;
-    }
     .container-2 > p > span{
         font-family: 'Courier New', Courier, monospace;
      }
 
-    .bloco-1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        }
-        
-    .bloco-2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        }
-    
-    .div-presente-1{
-        height: 400px;
-        display: flex;
-        flex-direction: column;
-        font-family:  "Parisienne", 'Courier New', Courier, monospace;
-        font-size: 18px;
-        
-    }
-    .div-presente-2{
-        height: 400px;
-        display: flex;
-        flex-direction: column;
-        font-family:  "Parisienne", 'Courier New', Courier, monospace;
-        font-size: 18px;
-    }
-    
-    .div-presente-1 > img{
-        width: 100px;
-        margin-bottom: 15px;
-    }
-    
-    .div-presente-2 > img{
-        width: 100px;
-        margin-bottom: 15px;
-    }
-    .div-presente-1, .div-presente-2{
-        align-items: center;
-    }
-    
-    .div-presente-1 > p, .div-presente-2 >  p{
-        font-weight: bold;
-        color: #1d4576;
-        margin-bottom: 10px;
-    }
-    
-    .div-presente-2 > p > span{
-       font-size: 14px;
-       font-weight: bold;
-    }
- 
   }
 
 @media (max-width: 375px) and (max-width: 812px){ 
@@ -218,9 +157,6 @@ body{
        
     }
 
-    .container-1{
-        margin-top: 20px;
-    }
     .container-2 > p > span{
         font-family: 'Courier New', Courier, monospace;
      }
@@ -236,7 +172,6 @@ body{
         height: 100vh;
        
     }
-    
 
     .container-2 > p > span{
         font-family: 'Courier New', Courier, monospace;
@@ -301,8 +236,6 @@ body{
         height: 100vh;
     }
 
-   
-
     .container-2 > p > span{
         font-family: 'Courier New', Courier, monospace;
      }
@@ -318,9 +251,9 @@ body{
         height: 100vh;
     }
 
-    .container-2{
-        margin-top: 50px;
-    }
+    .container-2 > p > span{
+        font-family: 'Courier New', Courier, monospace;
+     }
  }
 
 @media (max-width: 430px) and (max-width: 932px){ 
@@ -333,13 +266,6 @@ body{
         height: 100vh;
   }
 
-  .div-presente-2{
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    font-family: "Parisienne", cursive;
-    font-size: 18px;
-   
  }
 
   @media (max-width: 440px) and (max-width: 956px){ 
@@ -387,4 +313,3 @@ body{
      }
 }
 
-}
