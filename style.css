@@ -93,9 +93,9 @@ nav > a > span{
 
 
 
-@media  (max-width: 450px){
+@media (max-width: 320px) and (max-width: 568px){
     body {
-        background-image: url("artes/modelo-1/450x920.png");
+        background-image: url("artes/modelo-1/320x568.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -103,53 +103,52 @@ nav > a > span{
         height: 100vh;
     }
 
+    .div-1{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 255, 255, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-2{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
     
-.div-1{
-    width: 100%;
-    height: 70vh;
-    background-color: rgba(0, 255, 255, 0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.div-2{
-    width: 100%;
-    height: 20vh;
-    display: flex;
-}
-
-h1{
-    font-family: "Parisienne", cursive;
-    font-size: 65px;
-    color: #1d4576;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    padding-top: 150px;
-}
-
-h1 > span{
-    font-size: 80px;
-}
-
-h2{
-    display: flex;
-    color: #1d4576;
-    font-family: "Parisienne", cursive;
-    font-size: 20px;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+    h1{
+        font-family: "Parisienne", cursive;
+        font-size: 65px;
+        color: #1d4576;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 150px;
+    }
     
-}
-}
+    h1 > span{
+        font-size: 80px;
+    }
+    
+    h2{
+        display: flex;
+        color: #1d4576;
+        font-family: "Parisienne", cursive;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    }
 
-@media  (max-width: 415px){
+@media (max-width: 360px) and (max-width: 780px){
     body {
-        background-image: url("artes/modelo-1/450x920.png");
+        background-image: url("artes/modelo-1/360x780.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -157,51 +156,104 @@ h2{
         height: 100vh;
     }
 
+    .div-1{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 255, 255, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-2{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
     
-.div-1{
-    width: 100%;
-    height: 70vh;
-    background-color: rgba(0, 255, 255, 0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.div-2{
-    width: 100%;
-    height: 20vh;
-    display: flex;
-}
-
-h1{
-    font-family: "Parisienne", cursive;
-    font-size: 65px;
-    color: #1d4576;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    padding-top: 150px;
-}
-
-h1 > span{
-    font-size: 80px;
-}
-
-h2{
-    display: flex;
-    color: #1d4576;
-    font-family: "Parisienne", cursive;
-    font-size: 20px;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+    h1{
+        font-family: "Parisienne", cursive;
+        font-size: 65px;
+        color: #1d4576;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 150px;
+    }
     
-}
-}
+    h1 > span{
+        font-size: 80px;
+    }
+    
+    h2{
+        display: flex;
+        color: #1d4576;
+        font-family: "Parisienne", cursive;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    }
 
-@media (max-width: 376px){
+@media (max-width: 375px) and (max-width: 812px){
+    body {
+        background-image: url("artes/modelo-1/375x812.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
+    .div-1{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 255, 255, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-2{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
+    
+    h1{
+        font-family: "Parisienne", cursive;
+        font-size: 65px;
+        color: #1d4576;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    
+    h1 > span{
+        font-size: 80px;
+    }
+    
+    h2{
+        display: flex;
+        color: #1d4576;
+        font-family: "Parisienne", cursive;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    }
+    
+
+@media (max-width: 376px) and (max-width: 667px){
     body {
         background-image: url("artes/modelo-1/375x667.png");
         background-size: cover;
@@ -211,46 +263,532 @@ h2{
         height: 100vh;
     }
 
+    .div-1{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 255, 255, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-2{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
     
-.div-1{
-    width: 100%;
-    height: 70vh;
-    background-color: rgba(0, 255, 255, 0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.div-2{
-    width: 100%;
-    height: 20vh;
-    display: flex;
-}
-
-h1{
-    font-family: "Parisienne", cursive;
-    font-size: 65px;
-    color: #1d4576;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    padding-top: 150px;
-}
-
-h1 > span{
-    font-size: 80px;
-}
-
-h2{
-    display: flex;
-    color: #1d4576;
-    font-family: "Parisienne", cursive;
-    font-size: 20px;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+    h1{
+        font-family: "Parisienne", cursive;
+        font-size: 65px;
+        color: #1d4576;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 150px;
+    }
     
-}
-}
+    h1 > span{
+        font-size: 80px;
+    }
+    
+    h2{
+        display: flex;
+        color: #1d4576;
+        font-family: "Parisienne", cursive;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    }
+    
+
+@media (max-width: 390px) and (max-width: 844px){
+    body {
+        background-image: url("artes/modelo-1/390x844.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
+    .div-1{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 255, 255, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-2{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
+    
+    h1{
+        font-family: "Parisienne", cursive;
+        font-size: 65px;
+        color: #1d4576;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    
+    h1 > span{
+        font-size: 80px;
+    }
+    
+    h2{
+        display: flex;
+        color: #1d4576;
+        font-family: "Parisienne", cursive;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    }
+    
+
+@media (max-width: 393px) and (max-width: 852px){
+    body {
+        background-image: url("artes/modelo-1/393x852.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
+    .div-1{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 255, 255, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-2{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
+    
+    h1{
+        font-family: "Parisienne", cursive;
+        font-size: 65px;
+        color: #1d4576;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    
+    h1 > span{
+        font-size: 80px;
+    }
+    
+    h2{
+        display: flex;
+        color: #1d4576;
+        font-family: "Parisienne", cursive;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    }
+    
+
+@media (max-width: 415px) and (max-width: 896px){
+    body {
+        background-image: url("artes/modelo-1/415x896.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
+    .div-1{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 255, 255, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-2{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
+    
+    h1{
+        font-family: "Parisienne", cursive;
+        font-size: 65px;
+        color: #1d4576;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    
+    h1 > span{
+        font-size: 80px;
+    }
+    
+    h2{
+        display: flex;
+        color: #1d4576;
+        font-family: "Parisienne", cursive;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    }
+    
+
+@media (max-width: 415px) and (max-width: 920px){
+    body {
+        background-image: url("artes/modelo-1/450x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
+    .div-1{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 255, 255, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-2{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
+    
+    h1{
+        font-family: "Parisienne", cursive;
+        font-size: 65px;
+        color: #1d4576;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    
+    h1 > span{
+        font-size: 80px;
+    }
+    
+    h2{
+        display: flex;
+        color: #1d4576;
+        font-family: "Parisienne", cursive;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    }
+
+
+@media (max-width: 428px) and (max-width: 926px){
+    body {
+        background-image: url("artes/modelo-1/428x926.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
+    .div-1{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 255, 255, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-2{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
+    
+    h1{
+        font-family: "Parisienne", cursive;
+        font-size: 65px;
+        color: #1d4576;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    
+    h1 > span{
+        font-size: 80px;
+    }
+    
+    h2{
+        display: flex;
+        color: #1d4576;
+        font-family: "Parisienne", cursive;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    }
+    
+
+@media (max-width: 430px) and (max-width: 932px){
+    body {
+        background-image: url("artes/modelo-1/430x932.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
+    .div-1{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 255, 255, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-2{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
+    
+    h1{
+        font-family: "Parisienne", cursive;
+        font-size: 65px;
+        color: #1d4576;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    
+    h1 > span{
+        font-size: 80px;
+    }
+    
+    h2{
+        display: flex;
+        color: #1d4576;
+        font-family: "Parisienne", cursive;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    }
+    
+
+@media (max-width: 440px) and (max-width: 956px){
+    body {
+        background-image: url("artes/modelo-1/440x956.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
+    .div-1{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 255, 255, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-2{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
+    
+    h1{
+        font-family: "Parisienne", cursive;
+        font-size: 65px;
+        color: #1d4576;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    
+    h1 > span{
+        font-size: 80px;
+    }
+    
+    h2{
+        display: flex;
+        color: #1d4576;
+        font-family: "Parisienne", cursive;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    }
+
+
+@media (max-width: 450px) and (max-width: 920px){
+    body {
+        background-image: url("artes/modelo-1/450x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
+    .div-1{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 255, 255, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-2{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
+    
+    h1{
+        font-family: "Parisienne", cursive;
+        font-size: 65px;
+        color: #1d4576;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    
+    h1 > span{
+        font-size: 80px;
+    }
+    
+    h2{
+        display: flex;
+        color: #1d4576;
+        font-family: "Parisienne", cursive;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    }
+    
+
+@media (max-width: 567px) and (max-width: 920px){
+    body {
+        background-image: url("artes/modelo-1/567x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
+    .div-1{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 255, 255, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-2{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+    }
+    
+    h1{
+        font-family: "Parisienne", cursive;
+        font-size: 65px;
+        color: #1d4576;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    
+    h1 > span{
+        font-size: 80px;
+    }
+    
+    h2{
+        display: flex;
+        color: #1d4576;
+        font-family: "Parisienne", cursive;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    }
+    
