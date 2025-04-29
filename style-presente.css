@@ -36,7 +36,7 @@ body{
 
 .container-2 > p{
    display: flex;
-   font-size: 18px;
+   font-size: 23px;
    font-family:  "Parisienne", 'Courier New', Courier, monospace;
    align-items: center;
    flex-direction: column;
@@ -45,6 +45,7 @@ body{
 }
 .container-2 > p > span{
     font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
  }
 
 /* aba presente */
