@@ -18,6 +18,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: #10102600;
+    position: relative;
 }
 
 aside{
