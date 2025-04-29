@@ -195,7 +195,7 @@ body{
         font-size: 18px;
     }
     .container-2 > p > span{
-        font-family:  "Parisienne", 'Courier New', Courier, monospace;
+        font-family: 'Courier New', Courier, monospace;
      }
 
     .bloco-1{
@@ -270,7 +270,7 @@ body{
         margin-top: 20px;
     }
     .container-2 > p > span{
-        font-family: cursive;
+        font-family: 'Courier New', Courier, monospace;
      }
    }
 
@@ -289,7 +289,7 @@ body{
     }
 
     .container-2 > p > span{
-        font-family:  "Parisienne", 'Courier New', Courier, monospace;
+        font-family: 'Courier New', Courier, monospace;
      }
 }
 
@@ -308,7 +308,7 @@ body{
     }
 
     .container-2 > p > span{
-        font-family:  "Parisienne", 'Courier New', Courier, monospace;
+        font-family: 'Courier New', Courier, monospace;
      }
  }
  
@@ -329,7 +329,7 @@ body{
     }
 
     .container-2 > p > span{
-        font-family: cursive;
+        font-family: 'Courier New', Courier, monospace;
      }
   
  }
@@ -348,7 +348,7 @@ body{
     }
 
     .container-2 > p > span{
-        font-family:  "Parisienne", 'Courier New', Courier, monospace;
+        font-family: 'Courier New', Courier, monospace;
      }
   }
 
@@ -360,7 +360,6 @@ body{
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
-       
     }
 
      .container-2{
@@ -368,7 +367,7 @@ body{
     }
 
     .container-2 > p > span{
-        font-family:  "Parisienne", 'Courier New', Courier, monospace;
+        font-family: 'Courier New', Courier, monospace;
      }
 }
 
@@ -417,7 +416,7 @@ body{
     }
 
     .container-2 > p > span{
-        font-family: cursive;
+        font-family: 'Courier New', Courier, monospace;
      }
    }
 
@@ -432,7 +431,7 @@ body{
     }
 
     .container-2 > p > span{
-        font-family:  "Parisienne", 'Courier New', Courier, monospace;
+        font-family: 'Courier New', Courier, monospace;
      }
 }
 
@@ -447,7 +446,7 @@ body{
     }
 
     .container-2 > p > span{
-        font-family:  "Parisienne", 'Courier New', Courier, monospace;
+        font-family: 'Courier New', Courier, monospace;
      }
 }
 
