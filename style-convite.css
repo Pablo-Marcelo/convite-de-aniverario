@@ -22,8 +22,8 @@ body{
 
 aside{
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0%;
+    left: 0%;
     
     }
 
@@ -222,53 +222,5 @@ form button:hover{
         background-attachment: fixed;
         height: 100vh;
     }
-}
-
-
-
-/* Pagina do Obrigado */
-
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
-    background: #1d1d2e;
-}
-
-.text{
-    font-family: "Parisienne", cursive;
-    font-size: 45px;
-    color: #f5f5f5;
-    margin: 30px;
-}
-
-.paragrafo{
-    font-family: sans-serif;
-    font-size: 20px;
-    color: #f5f5f5;
-    margin-bottom: 11px;
-    
-}
-
-.btn{
-    margin-top: 20px;
-    padding: 15px 55px;
-    cursor: pointer;
-    font-size: 22px;
-    font-family: "Parisienne", cursive;
-    background: #101026;
-    color: #f5f5f5;
-    transition: all 1s;
-    border: 1px solid #f5f5f5;
-    border-radius: 10px;
-}
-
-.btn:hover{
-    background: #f5f5f5;
-    color: #101026;
-    border-radius: 16px;
-    border: 1px solid #101026;
 }
 
