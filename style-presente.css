@@ -133,46 +133,6 @@ body{
         align-items: center;
         }
     
-    .div-presente-1{
-        height: 500px;
-        display: flex;
-        flex-direction: column;
-        font-family:  "Parisienne", 'Courier New', Courier, monospace;
-        font-size: 14px;
-        
-    }
-    .div-presente-2{
-        height: 500px;
-        display: flex;
-        flex-direction: column;
-        font-family:  "Parisienne", 'Courier New', Courier, monospace;
-        font-size: 14px;
-    }
-    
-    .div-presente-1 > img{
-        width: 80px;
-        margin-bottom: 15px;
-    }
-    
-    .div-presente-2 > img{
-        width: 80px;
-        margin-bottom: 15px;
-    }
-    .div-presente-1, .div-presente-2{
-        align-items: center;
-    }
-    
-    .div-presente-1 > p, .div-presente-2 >  p{
-        font-weight: bold;
-        color: #1d4576;
-        margin-bottom: 10px;
-    }
-    
-    .div-presente-2 > p > span{
-       font-size: 14px;
-       font-weight: bold;
-       
-    }
  }
 
 @media (max-width: 360px) and (max-width: 780px){ 
@@ -393,7 +353,7 @@ body{
   }
 
   .container-2{
-    margin-top: 0px;
+    margin-top: 50px;
 }
 
   .div-presente-2{
@@ -428,6 +388,10 @@ body{
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
+    }
+
+    .container-2{
+        margin-top: 50px;
     }
 
     .container-2 > p > span{
