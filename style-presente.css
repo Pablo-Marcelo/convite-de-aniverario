@@ -23,11 +23,11 @@ body{
 
 .container-1{
     display: flex;
+    padding-bottom: 40px;
     
 }
 
 .container-2{
-    margin-top: 50px;
     height: 200px;
     display: flex;
     align-items: center;
@@ -110,11 +110,6 @@ body{
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
-    }
-    
-
-    .container-2{
-        margin-top: -10px;
     }
 
     .container-2 > p{
@@ -222,9 +217,6 @@ body{
         height: 100vh;
        
     }
-    .container-2{
-        margin-top: -20px;
-    }
 
     .container-1{
         margin-top: 20px;
@@ -244,9 +236,7 @@ body{
         height: 100vh;
        
     }
-    .container-2{
-        margin-top: -20px;
-    }
+    
 
     .container-2 > p > span{
         font-family: 'Courier New', Courier, monospace;
@@ -263,9 +253,6 @@ body{
         height: 100vh;
         
     }
-    .container-2{
-        margin-top: -20px;
-    }
 
     .container-2 > p > span{
         font-family: 'Courier New', Courier, monospace;
@@ -280,12 +267,7 @@ body{
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
-    }
-    .container-2{
-        margin-top: -20px;
-    }
-    .container-2{
-        margin-top: 0px;
+
     }
 
     .container-2 > p > span{
@@ -303,9 +285,6 @@ body{
         background-attachment: fixed;
         height: 100vh;
     }
-    .container-2{
-        margin-top: 0px;
-    }
 
     .container-2 > p > span{
         font-family: 'Courier New', Courier, monospace;
@@ -322,9 +301,7 @@ body{
         height: 100vh;
     }
 
-     .container-2{
-        margin-top: 0px;
-    }
+   
 
     .container-2 > p > span{
         font-family: 'Courier New', Courier, monospace;
@@ -340,6 +317,10 @@ body{
         background-attachment: fixed;
         height: 100vh;
     }
+
+    .container-2{
+        margin-top: 50px;
+    }
  }
 
 @media (max-width: 430px) and (max-width: 932px){ 
@@ -351,10 +332,6 @@ body{
         background-attachment: fixed;
         height: 100vh;
   }
-
-  .container-2{
-    margin-top: 50px;
-}
 
   .div-presente-2{
     height: 400px;
@@ -388,10 +365,6 @@ body{
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
-    }
-
-    .container-2{
-        margin-top: 50px;
     }
 
     .container-2 > p > span{
