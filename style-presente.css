@@ -19,12 +19,19 @@ body{
     min-height: 100vh;
     background: #10102600;
     flex-direction: column;
+    position: relative;
+}
+
+aside{
+position: absolute;
+top: 0px;
+left: 0px;
+
 }
 
 .container-1{
     display: flex;
     padding-bottom: 80px;
-    
 }
 
 .container-2{
