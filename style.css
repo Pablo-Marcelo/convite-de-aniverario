@@ -93,7 +93,7 @@ nav > a > span{
 
 
 
-@media (max-width: 320px) and (max-width: 568px){
+@media (min-width: 320px) and (max-width: 568px){
     body {
         background-image: url("artes/modelo-1/320x568.png");
         background-size: cover;
@@ -146,7 +146,7 @@ nav > a > span{
     }
     }
 
-@media (max-width: 360px) and (max-width: 780px){
+@media (min-width: 360px) and (max-width: 780px){
     body {
         background-image: url("artes/modelo-1/360x780.png");
         background-size: cover;
@@ -199,7 +199,7 @@ nav > a > span{
     }
     }
 
-@media (max-width: 375px) and (max-width: 812px){
+@media (min-width: 375px) and (max-width: 812px){
     body {
         background-image: url("artes/modelo-1/375x812.png");
         background-size: cover;
@@ -253,7 +253,7 @@ nav > a > span{
     }
     
 
-@media (max-width: 376px) and (max-width: 667px){
+@media (min-width: 376px) and (max-width: 667px){
     body {
         background-image: url("artes/modelo-1/375x667.png");
         background-size: cover;
@@ -307,7 +307,7 @@ nav > a > span{
     }
     
 
-@media (max-width: 390px) and (max-width: 844px){
+@media (min-width: 390px) and (max-width: 844px){
     body {
         background-image: url("artes/modelo-1/390x844.png");
         background-size: cover;
@@ -361,7 +361,7 @@ nav > a > span{
     }
     
 
-@media (max-width: 393px) and (max-width: 852px){
+@media (min-width: 393px) and (max-width: 852px){
     body {
         background-image: url("artes/modelo-1/393x852.png");
         background-size: cover;
@@ -415,7 +415,7 @@ nav > a > span{
     }
     
 
-@media (max-width: 415px) and (max-width: 896px){
+@media (min-width: 415px) and (max-width: 896px){
     body {
         background-image: url("artes/modelo-1/415x896.png");
         background-size: cover;
@@ -469,7 +469,7 @@ nav > a > span{
     }
     
 
-@media (max-width: 415px) and (max-width: 920px){
+@media (min-width: 415px) and (max-width: 920px){
     body {
         background-image: url("artes/modelo-1/450x920.png");
         background-size: cover;
@@ -523,7 +523,7 @@ nav > a > span{
     }
 
 
-@media (max-width: 428px) and (max-width: 926px){
+@media (min-width: 428px) and (max-width: 926px){
     body {
         background-image: url("artes/modelo-1/428x926.png");
         background-size: cover;
@@ -577,7 +577,7 @@ nav > a > span{
     }
     
 
-@media (max-width: 430px) and (max-width: 932px){
+@media (min-width: 430px) and (max-width: 932px){
     body {
         background-image: url("artes/modelo-1/430x932.png");
         background-size: cover;
@@ -631,7 +631,7 @@ nav > a > span{
     }
     
 
-@media (max-width: 440px) and (max-width: 956px){
+@media (min-width: 440px) and (max-width: 956px){
     body {
         background-image: url("artes/modelo-1/440x956.png");
         background-size: cover;
@@ -685,7 +685,7 @@ nav > a > span{
     }
 
 
-@media (max-width: 450px) and (max-width: 920px){
+@media (min-width: 450px) and (max-width: 920px){
     body {
         background-image: url("artes/modelo-1/450x920.png");
         background-size: cover;
@@ -739,7 +739,7 @@ nav > a > span{
     }
     
 
-@media (max-width: 567px) and (max-width: 920px){
+@media (min-width: 567px) and (max-width: 920px){
     body {
         background-image: url("artes/modelo-1/567x920.png");
         background-size: cover;
