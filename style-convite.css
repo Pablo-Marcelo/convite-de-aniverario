@@ -236,6 +236,38 @@ form button:hover{
     }
 }
 
+@media (min-width: 769px) and (max-width: 1024px){
+    body {
+        background-image: url("artes/modelo-2/567x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    body {
+        background-image: url("artes/modelo-2/567x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1201px){
+    body {
+        background-image: url("artes/modelo-2/567x920.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
 
 /* Pagina do Obrigado */
 
