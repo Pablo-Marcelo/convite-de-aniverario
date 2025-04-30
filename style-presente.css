@@ -333,24 +333,66 @@ left: 0px;
 }
 
 @media (min-width: 1025px) and (max-width: 1200px){
-    body {
-        background-image: url("artes/modelo-3/567x920.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        height: 100vh;
-    }
+    
 }
 
 @media (min-width: 1201px){
     body {
-        background-image: url("artes/modelo-3/567x920.png");
+        background-image: url("artes/modelo-1/1201x1695.png");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: bottom;
         background-attachment: fixed;
         height: 100vh;
     }
+
 }
 
+@media (min-width: 1536px){
+
+    body {
+        background-image: url("artes/modelo-1/1201x1695.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+    
+    .div-presente-1 > img{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        font-family:  "Parisienne", 'Courier New', Courier, monospace;
+        font-size: 20px;
+        width: 150px;
+    }
+    .div-presente-2 > img{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        font-family:  "Parisienne", 'Courier New', Courier, monospace;
+        font-size: 18px;
+        width: 150px;
+    }
+
+    .div-presente-1{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        font-family:  "Parisienne", 'Courier New', Courier, monospace;
+        font-size: 25px;
+    }
+
+    .div-presente-2{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        font-family:  "Parisienne", 'Courier New', Courier, monospace;
+        font-size: 25px;
+    }
+
+    .container-2{
+        margin-top: 100px;
+    }
+}

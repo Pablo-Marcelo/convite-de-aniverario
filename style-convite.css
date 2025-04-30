@@ -260,13 +260,27 @@ form button:hover{
 
 @media (min-width: 1201px){
     body {
-        background-image: url("artes/modelo-2/567x920.png");
+        background-image: url("artes/modelo-1/1201x1695.png");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: bottom;
         background-attachment: fixed;
         height: 100vh;
     }
+
+}
+
+@media (min-width: 1536px){
+
+    body {
+        background-image: url("artes/modelo-1/1201x1695.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
 }
 
 /* Pagina do Obrigado */
@@ -315,3 +329,16 @@ form button:hover{
     border: 1px solid #101026;
 }
 
+@media (min-width: 1536px){
+
+    body {
+        background-image: url("artes/modelo-1/1201x1695.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+
+    
+}
