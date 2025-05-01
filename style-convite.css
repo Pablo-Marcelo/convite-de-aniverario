@@ -93,6 +93,13 @@ form button:hover{
     border: 1px solid #101026;
 }
 
+.span-required{
+    display: none;
+    margin: -18px 0 10px 3px;
+    color: #e63636;
+    font-size: 15px;
+}
+
 @media (min-width: 320px) and (max-width: 568px){
     body {
         background-image: url("artes/modelo-2/320x568.png");
