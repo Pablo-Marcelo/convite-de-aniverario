@@ -15,7 +15,7 @@
         <h2>Convidado:</h2>
         <form action="https://api.staticforms.xyz/submit" method="post" id="form">
             <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome" placeholder="Nome Completo" class="required" oninput="nameValidate()">
+            <input type="text" name="nome" id="nome" pattern="[A-Za-zÀ-ÿ\s]+" placeholder="Nome Completo" class="required" oninput="nameValidate()">
             <span class="span-required">Informe o nome e sobrenome!</span>
 
             <label for="numero">Numero</label>
